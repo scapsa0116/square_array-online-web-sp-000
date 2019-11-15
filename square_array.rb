@@ -1,11 +1,8 @@
 def square_array(array)
-  array.each do |numbers|
-    puts "Here is every #{numbers} "
-  end
   
-  array.map!{|numbers| numbers ** 2 }
+array.map!{|numbers| numbers ** 2 }
   end
-end
+
  
 
 
