@@ -11,4 +11,4 @@ class Array
   end
 end
 
- squar_array.square!
+ ["1","2","3"].square!
