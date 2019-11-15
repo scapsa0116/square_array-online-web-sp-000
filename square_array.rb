@@ -6,7 +6,7 @@ def square_array(array)
 
 class Array
   def.square!
-    square_array(array)
+    
     self.map! {|numbers| numbers ** 2}
   end
 end
