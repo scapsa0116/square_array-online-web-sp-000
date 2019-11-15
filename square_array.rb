@@ -2,13 +2,12 @@ def square_array(array)
   array.each do |numbers|
     puts "Here is every #{numbers} "
   end
- numbers = [1,2,3]
- 
- square_array(numbers)
+ end
 
-  new_numbers = [9,10,16,25]
- 
-  square_array(new_numbers)
-   collect/map
-   end
+class Array
+  def square!
+    self.map! {|num| num ** 2}
+  end
+end
 
+[1,2,3].square! #=> [1, 4, 9]
