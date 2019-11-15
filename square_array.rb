@@ -3,7 +3,7 @@ def square_array(array)
     puts "Here is every #{numbers} "
   end
   
-  self.map!{|numbers| numbers ** 2 }
+  array.map!{|numbers| numbers ** 2 }
   end
 end
  
