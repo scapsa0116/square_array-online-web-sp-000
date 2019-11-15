@@ -10,4 +10,4 @@ class Array
   end
 end
 
-numbers.square!
+num.square!
