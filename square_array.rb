@@ -6,4 +6,4 @@ array.map!{|numbers| numbers ** 2 }
  
 
 
-[1,2,3].square!
+
