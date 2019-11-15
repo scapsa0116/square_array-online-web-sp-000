@@ -1,3 +1,11 @@
 def square_array(array)
-  # your code here
-end
+  
+  array1 = []
+array.each{|numbers|array1 <<numbers ** 2 }
+  return array1
+  end
+
+ 
+
+
+
