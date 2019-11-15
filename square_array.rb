@@ -5,10 +5,10 @@ def square_array(array)
  end
 
 class Array
-  def square!
+  def quare_array.square!
     
     self.map! {|numbers| numbers ** 2}
   end
 end
 
-square_array.square!
+[1,2,3].square!
