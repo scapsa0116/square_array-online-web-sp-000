@@ -10,4 +10,4 @@ class Array
   end
 end
 
- Array.square!
+ [1,2,3].square!
